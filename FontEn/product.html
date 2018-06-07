@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+<style>
+body,h1,h2,h3,h4,h5,h6,p,a {
+  font-family: 'Kanit', sans-serif;
+}
+
+a.ex1:hover, a.ex1:active {color: gray;}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  }
+/* .bgimg {
+    background-image: url('/w3images/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+} */
+.bg {
+    /* The image used */
+    background-image: url("images/pic1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+/* search */
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 13px;
+    /* border: 1px solid grey; */
+    border: none;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #616161;
+    color: white;
+    font-size: 13px;
+    /* border: 1px solid #616161; */
+    border: none;
+    /* border-left: none; */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #9d9d9d;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* search */
+body.pc {
+  /* position: fixed; */
+}
+</style>
+<body class="pc">
+    <div class="w3-bar w3-deep-orange">
+      <a href="index.html" style="text-decoration: none" class="w3-bar-item w3-text-white w3-padding-large w3-xlarge">SHOPDEE</a>
+      <!-- <form class="example w3-bar-item" action="./buy.html" style="margin:auto;max-width:350px">
+        <input type="text" placeholder="ค้นหาสินค้า" name="">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form> -->
+      <a href="login.html" style="margin-right:12px; margin-top:12px; text-decoration: none;" class="w3-bar-item w3-right w3-text-white">เข้าสู่ระบบ</a>
+      <a href="singUp.html" style="margin-top:12px; text-decoration: none;" class="w3-bar-item w3-right w3-text-white">สมัครสมาชิก</a>
+      <a href="#" style="margin-top:12px; text-decoration: none;" class="w3-bar-item w3-right w3-text-white">ติดต่อเรา</a>
+      <a href="#" style="margin-top:12px; text-decoration: none;" class="w3-bar-item w3-right w3-text-white">ค้นหาสินค้า</a>
+    </div>
+
+    <!-- PRODUCE -->
+    <div style="margin:16px;">
+      <!-- USERNAME -->
+      <div align="right">
+        <a>USERNAME</a>
+        <img src="images/user1.png" alt="Avatar" class="w3-circle" style="margin-left:8px; width:50px">
+      </div>
+
+      <h1 style="line-height: 20px;">สินค้า</h1>
+      <h5 style="line-height: 20px;">รายการสินค้าที่มีในครอบครอง</h5>
+
+      <!-- CARD 1 -->
+      <div class="w3-row-padding " style="margin:0 -16px">
+        <div class="w3-quarter">
+          <div style="" class="w3-card-2 w3-container w3-light-grey w3-margin-bottom w3-leftbar w3-border-green">
+            <div style="padding-top:8px; padding-bottom:16px" class="w3-light-grey">
+              <div style="margin-top:8px; margin-bottom:8px;">
+                <img style="width:100%;" src="images/home.jpg">
+              </div>
+              <div href="login.html" class="w3-hover-opacity" align="right">แก้ไข
+                <i class="fa fa-cog" aria-hidden="true"></i>
+              </div>
+              <div>  
+                <a>ชื่อสินค้า: </a><a>บ้านเดี่ยว 4 ห้องนอน</a>
+              </div>
+              <div>  
+                <a>ประเภทสินค้า: </a><a>บ้านเดี่ยว</a>
+              </div>
+              <div>  
+                <a>จังหวัด: </a><a>กรุงเทพมหานคร</a>
+              </div>
+              <div>  
+                <a>ราคา: </a><a>4,700,000</a><a> บาท</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 2 -->
+        <div class="w3-quarter">
+          <div style="" class="w3-card-2 w3-container w3-light-grey w3-margin-bottom w3-leftbar w3-border-gray">
+            <div style="padding-top:8px; padding-bottom:16px" class="w3-light-grey">
+              <div style="margin-top:8px; margin-bottom:8px;">
+                <img style="width:100%;" src="images//home.jpg">
+              </div>
+              <div class="w3-hover-opacity" align="right">แก้ไข
+                <i class="fa fa-cog" aria-hidden="true"></i>
+              </div>
+              <div>  
+                <a>ชื่อสินค้า: </a><a>บ้านเดี่ยว 4 ห้องนอน</a>
+              </div>
+              <div>  
+                <a>ประเภทสินค้า: </a><a>บ้านเดี่ยว</a>
+              </div>
+              <div>  
+                <a>จังหวัด: </a><a>กรุงเทพมหานคร</a>
+              </div>
+              <div>  
+                <a>ราคา: </a><a>4,700,000</a><a> บาท</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 3 -->
+        <div class="w3-quarter">
+            <div style="" class="w3-card-2 w3-container w3-light-grey w3-margin-bottom w3-leftbar w3-border-gray">
+              <div style="padding-top:8px; padding-bottom:16px" class="w3-light-grey">
+                <div style="margin-top:8px; margin-bottom:8px;">
+                  <img style="width:100%;" src="images//home.jpg">
+                </div>
+                <div class="w3-hover-opacity" align="right">แก้ไข
+                  <i class="fa fa-cog" aria-hidden="true"></i>
+                </div>
+                <div>  
+                  <a>ชื่อสินค้า: </a><a>บ้านเดี่ยว 4 ห้องนอน</a>
+                </div>
+                <div>  
+                  <a>ประเภทสินค้า: </a><a>บ้านเดี่ยว</a>
+                </div>
+                <div>  
+                  <a>จังหวัด: </a><a>กรุงเทพมหานคร</a>
+                </div>
+                <div>  
+                  <a>ราคา: </a><a>4,700,000</a><a> บาท</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- CARD 4 -->
+        <div class="w3-quarter">
+            <div style="" class="w3-card-2 w3-container w3-light-grey w3-margin-bottom w3-leftbar w3-border-gray">
+              <div style="padding-top:8px; padding-bottom:16px" class="w3-light-grey">
+                <div style="margin-top:8px; margin-bottom:8px;">
+                  <img style="width:100%;" src="images//home.jpg">
+                </div>
+                <div class="w3-hover-opacity" align="right">แก้ไข
+                  <i class="fa fa-cog" aria-hidden="true"></i>
+                </div>
+                <div>  
+                  <a>ชื่อสินค้า: </a><a>บ้านเดี่ยว 4 ห้องนอน</a>
+                </div>
+                <div>  
+                  <a>ประเภทสินค้า: </a><a>บ้านเดี่ยว</a>
+                </div>
+                <div>  
+                  <a>จังหวัด: </a><a>กรุงเทพมหานคร</a>
+                </div>
+                <div>  
+                  <a>ราคา: </a><a>4,700,000</a><a> บาท</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- CARD 5 -->
+        <div class="w3-quarter">
+            <div style="" class="w3-card-2 w3-container w3-light-grey w3-margin-bottom w3-leftbar w3-border-gray">
+              <div style="padding-top:8px; padding-bottom:16px" class="w3-light-grey">
+                <div style="margin-top:8px; margin-bottom:8px;">
+                  <img style="width:100%;" src="images//home.jpg">
+                </div>
+                <div class="w3-hover-opacity" align="right">แก้ไข
+                  <i class="fa fa-cog" aria-hidden="true"></i>
+                </div>
+                <div>  
+                  <a>ชื่อสินค้า: </a><a>บ้านเดี่ยว 4 ห้องนอน</a>
+                </div>
+                <div>  
+                  <a>ประเภทสินค้า: </a><a>บ้านเดี่ยว</a>
+                </div>
+                <div>  
+                  <a>จังหวัด: </a><a>กรุงเทพมหานคร</a>
+                </div>
+                <div>  
+                  <a>ราคา: </a><a>4,700,000</a><a> บาท</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+     
+
+    </div>
+    <!-- <div style="" class="w3-panel w3-light-grey w3-round-xlarge">
+    
+    </div> -->
+
+    
+
+</body>
+</html>

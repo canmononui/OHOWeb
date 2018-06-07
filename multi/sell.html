@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ShopDee</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link href="assets/css/material-bootstrap-wizard.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand">
+                            <a href="index.html">
+                               <img src="assets/img/logo.png" alt="" width="20" style="width:100px">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-collapse collapse">
+                        <div class="menu">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation">
+                                    <a href="index.html" class="active">Home</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="services.html">Services</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="blog.html">Contact</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="portfolio.html">Login</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="contact.html">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="BuySell">
+        <div class="">
+
+            <!--   Big container   -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <!--      Wizard container        -->
+                        <div class="wizard-container">
+                            <div class="card wizard-card" data-color="red" id="wizard">
+                                <form action="" method="">
+                                    <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+                                    <div class="wizard-header">
+                                        <h2 class="wizard-title">
+                                           <strong>4</strong>   ขั้นตอน ง่ายๆ
+                                        </h2>
+                                        <!-- <h5>This information will let us know more about you.</h5> -->
+                                    </div>
+                                    <div class="wizard-navigation">
+                                        <ul>
+                                            <li>
+                                                <a href="#details" data-toggle="tab">เลือกประเภท</a>
+                                            </li>
+                                            <li>
+                                                <a href="#captain" data-toggle="tab">รูปภาพ</a>
+                                            </li>
+                                            <li>
+                                                <a href="#description" data-toggle="tab">แผนที่</a>
+                                            </li>
+                                            <li>
+                                                <a href="#investigate" data-toggle="tab">ตรวจสอบ</a>
+
+                                            </li>
+                                        
+                                        </ul>
+                                    </div>
+
+                                    <div class="tab-content">
+                                        <div class="tab-pane" id="details">
+                                            <div class="row">
+                                                    <!-- <h4 class="info-text">What type of room would you want? </h4> -->
+                                                    <div class="row">
+                                                        <div class="col-sm-10 col-sm-offset-1">
+                                                            <div class="col-sm-3">
+                                                                <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="This is good if you travel alone.">
+                                                                    <input type="radio" name="job" value="Design">
+                                                                    <div class="icon" style="padding-top:13px;">
+                                                                       <img src="https://cdn.pixabay.com/photo/2014/04/02/17/01/home-307672_640.png" alt="" width="90" >
+                                                                    </div>
+                                                                    <h6>คอนโด</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this room if you're traveling with your family.">
+                                                                    <input type="radio" name="job" value="Code">
+                                                                    <div class="icon" style="padding-top:16px;">
+                                                                            <img src="https://png.pngtree.com/element_origin_min_pic/16/08/14/1057afd0b36f96d.jpg" alt="" width="90" >
+
+                                                                    </div>
+                                                                    <h6>บ้านเดียว</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you are coming with your team.">
+                                                                    <input type="radio" name="job" value="Code">
+                                                                    <div class="icon">
+                                                                        3
+                                                                    </div>
+                                                                    <h6>บ้านโครงการณ์</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                    <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you are coming with your team.">
+                                                                        <input type="radio" name="job" value="Code">
+                                                                        <div class="icon">
+                                                                        4
+                                                                        </div>
+                                                                        <h6>ที่ดินเปล่า</h6>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="captain">
+                                        
+                                                <div class="wrapper">
+                                                        <div class="drop">
+                                                          <div class="cont">
+                                                            <i class="fa fa-cloud-upload"></i>
+                                                            <div class="tit">
+                                                             
+                                                            </div>
+                                                            <div class="desc">
+                                                       วางรูปที่นี่
+                                                            </div>
+                                                            <!-- <div class="browse">
+                                                              click here to browse
+                                                            </div> -->
+                                                          </div>
+                                                          <output id="list"></output><input id="files" multiple="true" name="files[]" type="file" />
+                                                        </div>
+                                                      </div>
+                                        </div>
+                                        <div class="tab-pane" id="description">
+                                                <div id="map" ></div>
+                                        </div>
+                                        <div class="tab-pane" id="investigate">
+                                            <div class="">
+                                                    <span>หัวข้อ</span><br>
+                                                    <input type="text" name="" id="">
+                                            </div>
+                                            <div class="">
+                                                    <span>รายละเอียด</span><br>
+                                                    <input type="text" name="" id="">
+                                            </div>
+                                       
+                                        </div>
+                                    </div>
+                                    <div class="wizard-footer">
+                                        <div class="pull-right">
+                                            <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='ถัดไป' />
+                                            <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='ยื่นยัน' />
+                                        </div>
+                                        <div class="pull-left">
+                                            <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='กลับ' />
+
+                                          
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- wizard container -->
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!--  big container -->
+ 
+        </div>
+    </section>
+    <section id="inventory">
+        <div class="">
+           <div class="row" >
+              
+                    <div class="invent-panel">
+                        <div class="col-lg-3">
+                            <div class="invent-card">
+                                <div class="front">
+                                    <div class="title">บ้านสวนน้ำผึ้ง</div>
+                                    <div class="status"  ></div>
+                                </div> 
+                                <div class="back">
+                                    <div class="backView">
+                                            <button class="btn btnview">view</button>
+                                    </div>
+                                     
+                                </div>
+                           
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                                <div class="invent-card">
+                                    <div class="front">
+                                        <div class="title">โครงการณ์บ้านสวน</div>
+                                        <div class="status" style="background-color:green"></div>
+                                    </div> 
+                                    <div class="back">
+                                        <div class="backView">
+                                                <button class="btn btnview">view</button>
+                                        </div>
+                                         
+                                    </div>
+                               
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                    <div class="invent-card">
+                                        <div class="front">
+                                            <div class="title">บ้านสวนน้ำผึ้ง</div>
+                                            <div class="status"></div>
+                                        </div> 
+                                        <div class="back">
+                                            <div class="backView">
+                                                    <button class="btn btnview">view</button>
+                                            </div>
+                                             
+                                        </div>
+                                   
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                        <button class="btn btnview">More</button>
+                                    </div>
+                                  
+                    </div>
+           
+        
+           </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script>
+        wow = new WOW({
+
+            })
+            .init();
+    </script>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.bootstrap.js" type="text/javascript"></script>
+
+    <!--  Plugin for the Wizard -->
+    <script src="assets/js/material-bootstrap-wizard.js"></script>
+
+    <!--  More information about jquery.validate here: http://jqueryvalidation.org/	 -->
+    <script src="assets/js/jquery.validate.min.js"></script>
+
+    
+
+</body>
+<script>''
+
+ 
+ var drop = $("input");
+drop
+  .on("dragenter", function(e) {
+    $(".drop").css({
+      border: "4px dashed #09f",
+      background: "rgba(0, 153, 255, .05)"
+    });
+    $(".cont").css({
+      color: "#09f"
+    });
+  })
+  .on("dragleave dragend mouseout drop", function(e) {
+    $(".drop").css({
+      border: "3px dashed #DADFE3",
+      background: "transparent"
+    });
+    $(".cont").css({
+      color: "#8E99A5"
+    });
+  });
+
+function handleFileSelect(evt) {
+  var files = evt.target.files; // FileList object
+
+  // Loop through the FileList and render image files as thumbnails.
+  for (var i = 0, f; (f = files[i]); i++) {
+    // Only process image files.
+    if (!f.type.match("image.*")) {
+      continue;
+    }
+
+    var reader = new FileReader();
+
+    // Closure to capture the file information.
+    reader.onload = (function(theFile) {
+      return function(e) {
+        // Render thumbnail.
+        var span = document.createElement("span");
+        span.innerHTML = [
+          '<img class="thumb" src="',
+          e.target.result,
+          '" title="',
+          escape(theFile.name),
+          '"/>'
+        ].join("");
+        document.getElementById("list").insertBefore(span, null);
+      };
+    })(f);
+
+    // Read in the image file as a data URL.
+    reader.readAsDataURL(f);
+  }
+}
+
+$("#files").change(handleFileSelect);
+function initMap() {
+        var myLatlng = {lat: 13.739199, lng: 100.546974};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: myLatlng
+        });
+
+      
+        map.addListener('center_changed', function() {
+          // 3 seconds after the center of the map has changed, pan back to the
+          // marker.
+          window.setTimeout(function() {
+            map.panTo(marker.getPosition());
+          }, 3000);
+        });
+
+   
+   map.addListener('click', function(e) {
+    placeMarker(e.latLng, map);
+
+     console.log(e.latLng.lat())
+});
+
+function placeMarker(position, map) {
+   
+    var marker = new google.maps.Marker({
+        position: position,
+        map: map
+    });
+    map.panTo(position);
+}
+}
+</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFmqCZY4shAYs-cec2PTJcExCELe8r41g&callback=initMap" async defer></script>
+</html>

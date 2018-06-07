@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+<style>
+		body,h1,h2,h3,h4,h5,h6,p,a,span {
+			font-family: 'Kanit', sans-serif;
+		}
+
+/* search */
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 13px;
+    /* border: 1px solid grey; */
+    border: none;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #616161;
+    color: white;
+    font-size: 13px;
+    /* border: 1px solid #616161; */
+    border: none;
+    /* border-left: none; */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #9d9d9d;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* search */
+</style>
+
+</head>
+<body style="background: #4c4b4c;">
+	<div class="w3-bar w3-deep-orange">
+			<a href="index.html" style="text-decoration: none" class="w3-bar-item w3-text-white w3-padding-large w3-xlarge">SHOPDEE</a>
+			<form class="example w3-bar-item" action="./buy.html" style="margin:auto;max-width:350px">
+				<input type="text" placeholder="ค้นหาสินค้า" name="">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+			<a href="login.html" style="margin-right:12px; margin-top:12px; text-decoration: none;" class="w3-bar-item w3-right w3-text-white">เข้าสู่ระบบ</a>
+			<a href="singUp.html" style="margin-top:12px; text-decoration: none;" class="w3-bar-item w3-right w3-text-white">สมัครสมาชิก</a>
+			<a href="#" style="margin-top:12px; text-decoration: none;" class="w3-bar-item w3-right w3-text-white">ติดต่อเรา</a>
+		</div>
+
+			<div style="margin-top:50px" class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div style="margin-top: 50px" class="login100-pic js-tilt" data-tilt>
+					<img src="images/img-01.png" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form">
+					<h3 style="text-align: center; margin-bottom: 54px">
+						LOGIN
+					</h3>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+					<div >
+						<button class="singup100-form-btn" style="margin-top: 10px;" >
+							SING UP
+						</button>
+					</div>
+
+					<div class="text-center p-t-12">
+						<span class="txt1">
+							Forgot
+						</span>
+						<a class="txt2" href="#">
+							Username / Password?
+						</a>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

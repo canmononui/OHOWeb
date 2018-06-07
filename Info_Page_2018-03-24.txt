@@ -1,0 +1,13 @@
+Read main info from Map.
+1 Country	-> Drop down menu
+2 Province	-> Drop down menu
+3 City		-> Drop down menu
+4 Address	-> Fill blank
+5 Rent/Sell -> Drop down menu: "Rent"  "Sell" "Rent/Sell"
+6 Price
+7 Property Size -> Fill blank
+8 By		-> Drop "Owner" "Agent"
+9 Name 
+10 Contact: Phone -> Email -> Social
+11 Land Deed number:
+12 Deed Pictures
